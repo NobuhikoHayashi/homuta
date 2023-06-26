@@ -113,7 +113,7 @@ img {
     font-weight: 100;
 }
 .main_title{
-     font-size: 250%;
+     font-size: 240%;
      letter-spacing: 0px;
     font-weight: 1000;
 }
@@ -167,7 +167,7 @@ h1.index_side_text {
     max-width: 62em;
     text-align : left;
     margin: auto;
-    line-height: 00%;
+    line-height: 100%;
     font-family: 'Open Sans', sans-serif;  
     font-weight: 500;
 }
@@ -185,7 +185,18 @@ h1.index_side_text {
     padding-bottom: 0px;
     margin: auto;
     }
-    
+.newsDate{
+    font-size:120%;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 200;   
+}
+.newsTitle{
+    font-size: 200%;
+    max-width: 27.5em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+}
 /*----------作品リスト----------------------------------------------------------------------*/
 #works li{
     /*list-style:none;*/
@@ -450,6 +461,12 @@ iframe{
 .img_fit_2{
   width: 100%;
   height:600px;
+  object-fit:cover;
+}
+/*ヘッダー用横幅100%*/
+.img_fit_3{
+  width: 100%;
+  height:100%;
   object-fit:cover;
 }
 /*プロフィール用*/
