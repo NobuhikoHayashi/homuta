@@ -210,12 +210,12 @@ h1.index_side_text {
     text-overflow: ellipsis;
   white-space: nowrap;
 }
-/*----------アーカイブリスト----------------------------------------------------------------------*/
+/*----------ドキュメントリスト----------------------------------------------------------------------*/
  /* .archives_li{
     text-align: justify;
 　text-justify: inter-ideograph;
   }*/
-  #archives li{
+  #documents li{
     letter-spacing: 0px;
     max-width: 55em;
     line-height: 180%;
