@@ -195,7 +195,13 @@ h1.index_side_text {
     max-width: 27.5em;
     text-align : left;
     margin: auto;
-    line-height: 200%;
+    line-height: 190%;
+}
+.newsSubTitle{
+    font-size: 150%;
+    max-width: 27.5em;
+    text-align : left;
+    line-height: 180%;
 }
 /*----------作品リスト----------------------------------------------------------------------*/
 #works li{
@@ -452,12 +458,18 @@ iframe{
 }
 /*----------画像設定----------------------------------------------------------------------*/
 /*ヘッダー用横幅100%*/
+.home_img_fit{
+  width: 100%;
+  height:600px;
+  object-fit:cover;
+}
+/*作品用横幅100%*/
 .img_fit_1{
   width: 100%;
   height:350px;
   object-fit:cover;
 }
-/*ヘッダー用横幅100%*/
+/*作品用横幅100%*/
 .img_fit_2{
   width: 100%;
   height:600px;
