@@ -341,14 +341,15 @@ text{
 }
 /*----------写真キャプション----------------------------------------------------------------------*/
 .photo_caption{
-    font-size: 80%;
-    text-align: right;
-    line-height: 0%;
-    padding: 5 5;
-    font-family: 'Open Sans', sans-serif;  
-    font-weight: 100;
+font-size: 80%;
     color: #999;
-}
+    max-width: 68em;
+    text-align : right;
+    margin: auto;
+    line-height: 200%;
+    font-weight: 300;
+     font-family: 'Open Sans', sans-serif;  
+     }
 
 /*----------サイト内リンク----------------------------------------------------------------------*/
 .insite_link{
@@ -405,6 +406,24 @@ text{
     text-align : right;
     margin: auto;
     line-height: 200%;
+}
+
+/*----------SNSリストul----------------------------------------------------------------------*/
+#sns li{
+    font-family: 'Open Sans', sans-serif;  
+    letter-spacing: 0px;
+    padding: 0px 0px;
+    display: inline;
+}
+.sns li{
+    font-size: 90%;
+    max-width: 61em;
+    text-align : left;
+    margin: auto;
+    line-height: 200%;
+   }
+.sns_sub{
+    margin-right: 2%;
 }
 
 /*----------フッター----------------------------------------------------------------------*/
@@ -483,8 +502,7 @@ iframe{
 }
 /*プロフィール用*/
 .img_fit_profile_1{
-  width: 50%;
-  min-width: 20vw;
+  width: 30%;
 }
 /*作品用横幅*/
 .img_fit_work_1{
