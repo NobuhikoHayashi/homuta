@@ -103,6 +103,7 @@ img {
     display: inline;
 }
 #menu a{
+    color: #999;
 }
 
 #header p{
@@ -462,6 +463,15 @@ p, li, h1, h2, h3, a dl, dd{
 }
 .main_title {  
     font-size: 160%;
+}
+.work_title {
+    font-size: 140%;
+}
+.newsTitle {
+    font-size: 140%;
+}
+.newsSubTitle{
+    font-size: 110%;
 }
 footer {
   position: relative;
