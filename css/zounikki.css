@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif; //'Noto Serif JP', serif;
+    color: #222;
+    margin-left:10px;
+    margin-right:10px;
+    background: #222;
+}
+
+.work_title{font-weight: 200}
+
+ul:hover{
+    color: #fefefe;
+}
+
+a:hover{color: #0f0;}
