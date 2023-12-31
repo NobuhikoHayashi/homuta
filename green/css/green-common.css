@@ -126,6 +126,10 @@ br{
 .list_pure a{
     //text-decoration:underline;  
 }
+.qr{
+    max-width: 5em;
+}
+
 body {
   margin: 0;
   padding: 0;
