@@ -73,6 +73,9 @@ img {
 	height: auto;
 }
 footer {
+    background: #fefefe;
+    width: 100%;
+    margin-left: -10px;
 }
 
 /*----------ヘッダーメニュー----------------------------------------------------------------------*/
@@ -434,7 +437,10 @@ footer{
     font-size: 90%;
     position: fixed;/* ←絶対位置 */
     bottom: 0;
-    padding-bottom: 5px; /* ←フッターの高さを指定 */
+  text-indent: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    //padding-bottom: 5px; /* ←フッターの高さを指定 */
 }
 .footerFixed{
     position: relative;/* ←相対位置 */
