@@ -72,6 +72,8 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+footer {
+}
 
 /*----------ヘッダーメニュー----------------------------------------------------------------------*/
 #header{
@@ -429,7 +431,7 @@ font-size: 80%;
 
 /*----------フッター----------------------------------------------------------------------*/
 footer{
-    font-size: 100%;
+    font-size: 90%;
     position: fixed;/* ←絶対位置 */
     bottom: 0;
     padding-bottom: 5px; /* ←フッターの高さを指定 */
@@ -489,8 +491,13 @@ iframe{
 /*ヘッダー用横幅100%*/
 .home_img_fit{
   width: 100%;
-  object-fit:cover;
+  min-height: 100vh;
+  object-fit: cover;
 }
+/*.home_img_fit{
+  width: 100%;
+  object-fit: cover;
+}*/
 /*作品用横幅100%*/
 .img_fit_1{
   width: 100%;
