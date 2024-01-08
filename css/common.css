@@ -489,7 +489,6 @@ iframe{
 /*ヘッダー用横幅100%*/
 .home_img_fit{
   width: 100%;
-  height:600px;
   object-fit:cover;
 }
 /*作品用横幅100%*/
