@@ -336,6 +336,7 @@ text{
     text-align : left;
     margin: auto;
     line-height: 200%;
+    overflow: hidden;
 }{
     font-size: 90%;
     font-family: 'Open Sans', sans-serif;  
