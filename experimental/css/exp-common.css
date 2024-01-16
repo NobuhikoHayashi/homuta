@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    color: #fff;
+    font-family: "monaco";
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;   /* 縦横中央 */
+    background: #000;
+}
+
+
+iframe {
+
+}
+
+img{
+text-align : center;
+}
+
+h1{
+    font-size: 125%;
+    margin-left: 10px;
+}
+
+h2{
+
+}
+
+p{
+    margin-left: 10px;
+}
+
+li{
+    margin-left: 2em;
+}
+
+a{ 
+    color: #fff;
+}
+
+
+dt,dd,address{
+
+}
+
+
+dl{
+}
+
+dt,dd{
+
+}
+
+dd{
+
+}
+
+br{
+
+}
+
+.main_title{
+    font-size: 100%;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text_pure{
+    font-size: 80%;
+    max-width: 55em;
+    line-height: 150%;
+    font-weight: 100;
+    text-align: left;
+    text-align: justify;
+　text-justify: inter-ideograph;
+}
+.text_small{
+    font-size: 60%;
+    max-width: 55em;
+    line-height: 150%;
+    font-weight: 100;
+    text-align: left;
+    text-align: justify;
+　text-justify: inter-ideograph;
+}
+.text_small2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 60%;
+    max-width: 55em;
+    line-height: 150%;
+    font-weight: 100;
+    text-align: left;
+    text-align: justify;
+　text-justify: inter-ideograph;
+}
+.cc{
+    font-size: 60%;
+    padding-top: 10px;
+    max-width: 55em;
+    line-height: 150%;
+    font-weight: 100;
+    text-align: left;
+    text-align: justify;
+　text-justify: inter-ideograph;
+}
+.list_pure{
+    font-size: 80%;
+    max-width: 55em;
+    line-height: 150%;
+    font-weight: 100;
+    text-align: left;
+    text-align: justify;
+　text-justify: inter-ideograph;
+    under: 1;
+}
+.list_pure:hover{
+    color: #000;
+}
+.list_pure a{
+    //text-decoration:underline;  
+}
+.qr{
+    max-width: 5em;
+	height: auto;
+}
+.player{
+    position: fixed;
+    bottom: 50%;
+    left:50%; transform:translate(-50%, 0);
+    padding:1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+header {
+  width: 100%;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align : left;
+  font-size: 80%;
+}
+
+@media screen and (max-width:480px) {
+     .player {
+         bottom: 35%;
+      }
+}
