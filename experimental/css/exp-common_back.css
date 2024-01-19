@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+html{
+    overflow-x:hidden;
+}
+
+.onikoroshiBack{
+    background-image: url("../../img/other/20240103_oni-koroshi.jpg");
+}
