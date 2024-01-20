@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-html{
-    overflow-x:hidden;
-}
-
+/*鬼ころし chorale-1.html*/
 .onikoroshiBack{
+    height: 720px;
     background-image: url("../../img/other/20240103_oni-koroshi.jpg");
-    background-size: cover;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
