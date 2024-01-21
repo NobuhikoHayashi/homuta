@@ -39,7 +39,7 @@ li{
     margin-left: 2em;
 }
 
-a{ 
+a{
     color: #fff;
 }
 
@@ -77,8 +77,8 @@ br{
     line-height: 150%;
     font-weight: 100;
     text-align: left;
-    text-align: justify;
-　text-justify: inter-ideograph;
+    /*text-align: justify;
+　text-justify: inter-ideograph;*/
 }
 .text_small{
     font-size: 60%;
@@ -124,7 +124,7 @@ br{
     color: #000;
 }
 .list_pure a{
-    //text-decoration:underline;  
+    //text-decoration:underline;
 }
 .qr{
     max-width: 5em;
