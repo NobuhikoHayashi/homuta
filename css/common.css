@@ -15,7 +15,7 @@ body{
 	float: none;
 	position: static;
 }
- 
+
 h1{
 }
 
@@ -81,7 +81,7 @@ footer {
 
 /*----------ヘッダーメニュー----------------------------------------------------------------------*/
 #header{
-    line-height: 200%; 
+    line-height: 200%;
     background: #fefefe;
 }
 
@@ -97,7 +97,7 @@ footer {
    /* margin-left:0px;*/
 }
 #menu li{
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0px;
     font-weight: 500;
     font-size: 110%;
@@ -135,7 +135,7 @@ footer {
 #index_list li{
     display: inline;
 }
-.index_list_title{    
+.index_list_title{
   vertical-align: top;
 }
 figure.index_side_image {
@@ -148,7 +148,7 @@ h1.index_side_text {
     text-align : left;
     margin: auto;
     line-height: 200%;
-    
+
   display: inline-block;
   width: 300px;
   margin-left: 20px;
@@ -158,7 +158,7 @@ h1.index_side_text {
 /*----------ページ見出し----------------------------------------------------------------------*/
 .page_title{
     max-width:50em;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-size: 110%;
     font-weight: 500;
     max-width: 55em;
@@ -175,8 +175,15 @@ h1.index_side_text {
     text-align : left;
     margin: auto;
     line-height: 100%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+}
+
+/*----------トピック（Eventページにコピペできるようにする）----------------------------------------------------------------------*/
+#topics .newsList{
+    color: #fefefe;
+    /*background-color: #;*/
+    border-left: solid 0px #000;/*左側の線*/
 }
 
 /*----------ニュースリスト----------------------------------------------------------------------*/
@@ -194,8 +201,8 @@ h1.index_side_text {
     }
 .newsDate{
     font-size:120%;
-    font-family: 'Open Sans', sans-serif;  
-    font-weight: 200;   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
 }
 .newsTitle{
     font-size: 200%;
@@ -321,7 +328,7 @@ text{
 }
 .work_data{
     font-size: 90%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     max-width: 61em;
     text-align : left;
@@ -330,7 +337,7 @@ text{
 }
 .work_slash{
     font-size: 90%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #aaa;
     max-width: 61em;
@@ -354,7 +361,7 @@ font-size: 80%;
     margin: auto;
     line-height: 200%;
     font-weight: 300;
-     font-family: 'Open Sans', sans-serif;  
+     font-family: 'Open Sans', sans-serif;
      }
 
 /*----------サイト内リンク----------------------------------------------------------------------*/
@@ -364,7 +371,7 @@ font-size: 80%;
     text-align : left;
     margin: auto;
     line-height: 200%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #22f;
 }
@@ -374,7 +381,7 @@ font-size: 80%;
     text-align : right;
     margin: auto;
     line-height: 200%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #22f;
 }
@@ -384,28 +391,28 @@ font-size: 80%;
     text-align : center;
     margin: auto;
     line-height: 100%;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     font-weight: 120;
     color: #22f;
 }
 
 /*横並び設定*/
 #insite_link_list li{
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0px;
     padding: 0px 0px;
 }
 #insite_link_list li{
     display: inline;
 }
-.insite_link_list_L{    
+.insite_link_list_L{
     margin-right: 40%;
 }
 .insite_link_list_C{
-    text-align : center; 
+    text-align : center;
 }
 .insite_link_list_R{
-    text-align : right;     
+    text-align : right;
     margin-left: 40%;
 }
 
@@ -420,7 +427,7 @@ font-size: 80%;
 
 /*----------SNSリストul----------------------------------------------------------------------*/
 #sns li{
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0px;
     padding: 0px 0px;
     display: inline;
@@ -455,13 +462,13 @@ footer{
     text-align : left;
     margin: auto;
 }
-/*----------特定の画面幅以下になったら改行（ヘッダタイトルに使用）-----------------------------------------*/    
+/*----------特定の画面幅以下になったら改行（ヘッダタイトルに使用）-----------------------------------------*/
 @media screen and (min-width: 600px) {
   .br-disp {
     display: none;
   }
 }
-/*----------特定の画面幅以下になったら改行２（文章など）----------------------------------------------------------------------*/    
+/*----------特定の画面幅以下になったら改行２（文章など）----------------------------------------------------------------------*/
 @media screen and (min-width: 900px) {
   .br-disp_2 {
     display: none;
@@ -473,7 +480,7 @@ footer{
 p, li, h1, h2, h3, a dl, dd{
   font-size: 90%;
 }
-.main_title {  
+.main_title {
     font-size: 160%;
 }
 .work_title {
@@ -487,7 +494,7 @@ p, li, h1, h2, h3, a dl, dd{
 }
 footer {
   position: relative;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     box-sizing: border-box;
 }
 iframe{
