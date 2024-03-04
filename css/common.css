@@ -185,6 +185,12 @@ h1.index_side_text {
     /*background-color: #;*/
     border-left: solid 0px #000;/*左側の線*/
 }
+#topics a{
+    color: #fefefe;
+}
+#topics a :hover{
+    color: #222;
+}
 
 /*----------ニュースリスト----------------------------------------------------------------------*/
 .newsList{
