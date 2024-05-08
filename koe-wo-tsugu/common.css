@@ -1,0 +1,350 @@
+//これはVoicelogのcommon！//
+
+@charset "UTF-8";
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif, "Yu Gothic Medium" ;
+}
+
+iframe {
+    width: 80%;
+    height: auto;
+    opacity: 1;
+}
+
+h1{
+    letter-spacing: 1px;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2{
+    letter-spacing: 1px;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p{
+    line-height:  200%;
+    padding-top:   7px;
+    padding-bottom:  7px;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
+}
+
+ul{
+    line-height:  150%;
+    margin-left: 10px;
+}
+
+p,dt,dd,address{
+    letter-spacing: 3px;
+}
+ audio{
+    vertical-align: middle;//-25%; //高さ調整
+ }
+ 
+.box {
+  margin: auto;
+  width: 100%;
+  background: #dddddd;
+  }
+//ナビゲーションメニューの部分//
+
+#nav li a:hover,#f_nav li a:hover{
+    background:#333;
+    color: #fff;
+}
+
+#nav li a,#f_nav li a{
+    color: #CC33CC;
+    letter-spacing: 1px;
+    font-weight: 600;
+     font-size:110% ;
+}
+
+#nav li,#f_nav li{
+    display: block;
+    padding: 10px 10px;
+}
+
+#text li{
+    line-height:  200%;
+    padding-top:   7px;
+    padding-bottom:  7px;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
+}
+
+dl{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+dt,dd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+br{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#wrapper{
+    display: block;
+    width:100%;
+    height: auto;
+    margin:0 auto;
+    
+    
+}
+
+
+
+#menu{
+    //width:100%;//
+    z-index: 100000;
+    top:0;
+    left:0;
+    position:fixed;
+    padding: 10px 0px;
+    letter-spacing: 10px;
+    text-align: left;
+    z-index: 10000;
+}
+//239//
+
+#nav li{
+    font-size:100% ;
+    letter-spacing: 10px;
+}
+
+
+#sns li{
+    float:left;
+    padding-left:5px;
+    padding-right:20px;
+}
+
+/*年の大きな文字 未調整*/
+#year{
+    font-size: 800%;
+    text-align: right;
+    padding-right: 10px;
+    position:float;
+    color: #888;
+}
+
+.title{
+    font-size: 300%;
+    padding: 30px 0px;
+    letter-spacing: 5px;
+    max-width: 35em;
+    margin: auto;
+}
+
+.title_e{
+    font-size: 300%;
+    padding: 30px 0px;
+    letter-spacing: 1px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.subt{
+    font-size: 150%;
+    padding: 0px 0px;
+    letter-spacing: 5px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.subt_e{
+    font-size: 150%;
+    padding: 0px 0px;
+    letter-spacing: 1px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.description{
+    letter-spacing: 5px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.description2{
+    letter-spacing: 1px;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    font-weight: 500;
+    max-width: 55em;
+    margin: auto;
+}
+.description_e{
+    letter-spacing: 0px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.description_e2{
+    letter-spacing: 0px;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    font-weight: 500;
+    max-width: 55em;
+    margin: auto;
+}
+
+.descriptionL{
+    text-align: left;
+    letter-spacing: 5px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.descriptionLs{
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 80%;
+    max-width: 69em;
+    margin: auto;
+}
+
+.descriptionL2{
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    font-weight: 500;
+    max-width: 55em;
+    margin: auto;
+}
+.descriptionLe{
+    text-align: left;
+    letter-spacing: 0px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.descriptionLe2{
+    text-align: left;
+    letter-spacing: 0px;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    font-weight: 500;
+    max-width: 55em;
+    margin: auto;
+}
+
+.descriptionR{
+    text-align: right;
+    letter-spacing: 5px;
+    max-width: 55em;
+    margin: auto;
+}
+
+.descriptionR2{
+    text-align: right;
+    letter-spacing: 5px;
+    font-family: "Hiragino Kaku Gothic Pro" ;
+    font-weight: 500;
+    max-width: 55em;
+    margin: auto;
+}
+
+//作品説明文//
+
+.copy{
+    font-size: 50%;
+}
+
+.date{
+    font-size: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.date_pad{    
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+}
+
+dd{
+    font-size: 150%;
+}
+
+#news{
+    clear:both;
+}
+
+#about p,#contact p{
+    font-size: 150%;
+}
+
+.link{
+    color: black
+}
+
+.mrg-r-100{
+    margin-right : 10%;
+}
+.mrg-l-100{
+    margin-left : 10%;
+}
+
+/*横並び設定*/
+#insite_link_list li{
+    padding: 0px 0px;
+}
+#insite_link_list li{
+    display: inline;
+}
+.insite_link_list_L{
+    text-align : left;
+    margin-right: 10%;
+    font-size: 120%;
+}
+.insite_link_list_C{
+    letter-spacing: 5px;
+    text-align : center;
+    font-size: 200%;
+}
+/*小さい*/
+.insite_link_list_C_s{
+    text-align : center;
+    font-size: 120%;
+}
+.insite_link_list_R{
+    text-align : right;
+    margin-left: 10%;
+    font-size: 120%;
+}
+/* スマホのみに適用(480px以下) */
+@media screen and (max-width:480px) {
+    p, li, h1, h2, h3, a dl, dd{
+        font-size: 90%;
+    }
+    .description{
+        letter-spacing: 1px;
+    }
+    .descriptionL{
+        letter-spacing: 1px;
+    }
+    .descriptionR{
+        letter-spacing: 1px;
+    }
+    #menu{
+        margin-left: 0px;
+    }
+}
