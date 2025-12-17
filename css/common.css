@@ -202,7 +202,8 @@ h1.index_side_text {
 .newsList{
     list-style:none;
     max-width:55em;
-    border-left: solid 1px #000;/*左側の線*/
+    /*左側の線*/
+    border-left: solid 1px #000;
     margin-bottom: 3px;/*下のバーとの余白*/
     line-height: 150%;
     padding: 0.5em;
@@ -210,6 +211,8 @@ h1.index_side_text {
     padding-top:0px;
     padding-bottom: 0px;
     margin: auto;
+    /*テスト*/
+    /*background: #eee;*/
     }
 .newsDate{
     font-size:120%;
